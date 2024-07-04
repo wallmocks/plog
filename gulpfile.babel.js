@@ -30,7 +30,7 @@ function cleanTask() {
 
 // 예시용 CSS 작업
 function cssTask() {
-    return src('src/assets/scss/*.scss')
+    return src('src/css/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('dist/css'));
 }

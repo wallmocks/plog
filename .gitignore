@@ -1,7 +1,11 @@
-
-/.idea        
-/node_modules 
-/.publish     
-/.git         
-/dist         
+.svn
+node_modules
+build
+dist
+csv-to-json.js
+yarn.lock
 package-lock.json
+.DS_Store
+
+*.log
+~*.pptx
